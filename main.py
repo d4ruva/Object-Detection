@@ -1,7 +1,7 @@
 import cv2
 
 # img = cv2.imread("person.png")
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("vb.mp4")
 cap.set(3, 640)
 cap.set(4, 480)
 
