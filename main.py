@@ -1,7 +1,12 @@
 import cv2
 
 # img = cv2.imread("person.png")
-cap = cv2.VideoCapture(1)
+
+option = input('''
+Enter Camera Number: \n
+''')
+
+cap = cv2.VideoCapture(int(option))
 cap.set(3, 640)
 cap.set(4, 480)
 
