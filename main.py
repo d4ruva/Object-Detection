@@ -31,5 +31,5 @@ while True:
             cv2.rectangle(img, box, color=(0, 255, 0), thickness = 3)
             cv2.putText(img, classNames[classIds-1], (box[0]+10, box[1]+30), cv2.FONT_HERSHEY_PLAIN, 2, (255, 0, 0), 2)
 
-        cv2.imshow("Output", img)
+        cv2.imshow("Face Detection Tool", img)
         cv2.waitKey(1)
